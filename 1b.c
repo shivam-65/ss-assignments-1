@@ -1,3 +1,9 @@
+/*
+Name : Padaliya Shivam
+Roll No. : MT2024107
+Program :b. hard link (link system call)
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 
@@ -13,3 +19,9 @@ int main(){
 	printf("Hard link created: %s -> %s\n",linkfile,target);
 	return 0;
 }
+
+/*
+./a.out
+link: File exists
+
+*/
