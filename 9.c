@@ -29,3 +29,17 @@ int main(int argc, char *argv[]){
 
     return 0;
 }
+
+/*
+file: file1.txt
+Inode: 3184551
+No. of hard links: 1
+uid: 1000
+gid: 1000
+size: 25 bytes
+block size: 4096 bytes
+no. of blocks: 8
+time of last access: Thu Aug 22 09:04:21 2024
+time of last modification: Thu Aug 22 09:02:38 2024
+time of last change: Thu Aug 22 09:02:38 2024
+*/
