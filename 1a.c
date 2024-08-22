@@ -1,3 +1,9 @@
+/*
+Name : Padaliya Shivam
+Roll No. : MT2024107
+Program :a. soft link (symlink system call)
+*/
+
 #include<stdio.h>
 #include<unistd.h>
 
@@ -13,3 +19,9 @@ int main(){
 	printf("Symbolic link created: %s -> %s\n",link,target);
 	return 0;
 }
+
+/*
+./a.out
+symlink: File exists
+
+*/
