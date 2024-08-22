@@ -1,3 +1,9 @@
+/*
+Name : Padaliya Shivam
+Roll No. : MT2024107
+Program :c. FIFO (mkfifo Library Function or mknod system call)
+*/
+
 #include<stdio.h>
 #include<sys/types.h>
 #include<sys/stat.h>
@@ -14,3 +20,9 @@ int main(){
 	printf("FIFO file creted : %s\n", file);
 	return 0;
 }
+
+/*
+./a.out
+mknod: File exists
+
+*/
