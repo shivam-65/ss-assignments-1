@@ -1,4 +1,3 @@
-#include <stdio.h>
 /*
 Name : Padaliya Shivam
 Roll No. : MT2024107
@@ -7,6 +6,7 @@ a. Input should be taken from command line.
 b. program should be able to identify any type of a file.
 */
 
+#include<stdio.h>
 #include <sys/stat.h>   
 #include <stdlib.h>     
 #include <unistd.h>
