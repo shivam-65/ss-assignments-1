@@ -3,6 +3,7 @@ Name : Padaliya Shivam
 Roll No. : MT2024107
 Program :16. Write a program to perform mandatory locking.
 a. Implement write lock
+*/
 
 #include <unistd.h>    // Imports for `fcntl`
 #include <stdio.h>
