@@ -19,3 +19,8 @@ int main(){
 	close(file);
 	return 0;
 }
+
+/*
+shivam@shivam-Vostro-3590:~/Desktop/Handsonlist1$ ./a.out
+file descriptor: 3
+*/
