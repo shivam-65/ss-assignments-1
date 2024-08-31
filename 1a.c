@@ -8,8 +8,8 @@ Program :a. soft link (symlink system call)
 #include<unistd.h>
 
 int main(){
-	const char*target="text1.txt";
-	const char*link="hello_link.txt";
+	const char*target="1a.txt";
+	const char*link="1a_link.txt";
 
 	if(symlink(target,link)!=0){
 		perror("symlink");
@@ -21,7 +21,7 @@ int main(){
 }
 
 /*
-./a.out
-symlink: File exists
+shivam@shivam-Vostro-3590:~/Desktop/Handsonlist1$ ./a.out
+Symbolic link created: 1a_link.txt -> 1a.txt
 
 */

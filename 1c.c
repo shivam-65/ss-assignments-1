@@ -10,7 +10,7 @@ Program :c. FIFO (mkfifo Library Function or mknod system call)
 #include<fcntl.h>
 
 int main(){
-	const char*file="fifo.txt";
+	const char*file="myfifo.txt";
 
 	if(mknod(file,S_IFIFO | 0666,0) == -1){
 		perror("mknod");
@@ -22,7 +22,7 @@ int main(){
 }
 
 /*
-./a.out
-mknod: File exists
+shivam@shivam-Vostro-3590:~/Desktop/Handsonlist1$ ./a.out
+FIFO file creted : myfifo.txt
 
 */
