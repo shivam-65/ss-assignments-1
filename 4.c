@@ -16,3 +16,8 @@ int main(){
  
 }
 
+/*
+shivam@shivam-Vostro-3590:~/Desktop/Handsonlist1$ ./a.out
+3
+4
+*/
